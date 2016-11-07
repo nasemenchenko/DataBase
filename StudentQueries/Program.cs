@@ -7,6 +7,7 @@ namespace StudentQueries
 	{
 		static void CopyToDatabase(Context context)
 		{
+            // yuyuu
 			Repository repo = new Repository();
 			context.Groups.AddRange(repo.Groups);
 			context.Students.AddRange(repo.Students);
