@@ -5,7 +5,7 @@ namespace StudentQueries
 {
 	class Program
 	{
-		static void CopyToDatabase(Context context)
+		static void CopyToDatabase(MyContext context)
 		{
             // yuyuu
 			Repository repo = new Repository();
@@ -15,7 +15,7 @@ namespace StudentQueries
 			context.SaveChanges();
 		}
 
-		static void FilterAndOrder(Context context)
+		static void FilterAndOrder(MyContext context)
 		{
 			var result = from s in context.Students
 						 where s.BirthDate.Year >= 1999
@@ -26,7 +26,7 @@ namespace StudentQueries
 				Console.WriteLine("{0} {1}: {2}", s.Name, s.Surname, s.Rating);
 		}
 
-		static void Join(Context context)
+		static void Join(MyContext context)
 		{
 			var result = from s in context.Students
 						 join g in context.Groups
@@ -42,7 +42,7 @@ namespace StudentQueries
 			
 		}
 
-		static void GroupByFirstLetter(Context context)
+		static void GroupByFirstLetter(MyContext context)
 		{
 			var result = from s in context.Students
 						 group s by s.Name.Substring(0, 1) into g
@@ -58,7 +58,7 @@ namespace StudentQueries
 
 		static void Main(string[] args)
 		{
-			using (Context c = new Context())
+			using (MyContext c = new MyContext())
 			{
 				// Uncomment and run once to fill the database
 				// CopyToDatabase(c);
