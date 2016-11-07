@@ -5,7 +5,7 @@ namespace StudentQueries
 {
 	class Program
 	{
-		static void CopyToDatabase(Context context)
+		static void CopyToDatabase(yo context)
 		{
             // yuyuu
 			Repository repo = new Repository();
