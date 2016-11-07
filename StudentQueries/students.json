@@ -1,0 +1,79 @@
+﻿{
+  "groups": [
+    {
+      "Id": 1,
+      "Name": "BBI151"
+    },
+    {
+      "Id": 2,
+      "Name": "BBI152"
+    },
+    {
+      "Id": 3,
+      "Name": "BBI153"
+    },
+    {
+      "Id": 4,
+      "Name": "BBI154"
+    },
+    {
+      "Id": 5,
+      "Name": "BBI155"
+    },
+    {
+      "Id": 6,
+      "Name": "BBI156"
+    }
+  ],
+  "students": [
+    {
+      "Name": "Ivan",
+      "Surname": "Ivanov",
+      "BirthDate": "1998-01-04",
+      "Rating": 87.5,
+      "GroupId": 1
+    },
+    {
+      "Name": "Petr",
+      "Surname": "Sergeev",
+      "BirthDate": "1999-05-02",
+      "Rating": 89,
+      "GroupId": 1
+    },
+    {
+      "Name": "Alexei",
+      "Surname": "Nikolaev",
+      "BirthDate": "1999-12-06",
+      "Rating": 89,
+      "GroupId": 2
+    },
+    {
+      "Name": "Sergey",
+      "Surname": "Fedorov",
+      "BirthDate": "1999-01-04",
+      "Rating": 87.5,
+      "GroupId": 1
+    },
+    {
+      "Name": "Pavel",
+      "Surname": "Koshkin",
+      "BirthDate": "1998-01-04",
+      "Rating": 97,
+      "GroupId": 1
+    },
+    {
+      "Name": "Ivan",
+      "Surname": "Trofimov",
+      "BirthDate": "2000-01-02",
+      "Rating": 81,
+      "GroupId": 3
+    },
+    {
+      "Name": "Andrey",
+      "Surname": "Yurchenko",
+      "BirthDate": "1999-06-28",
+      "Rating": 85.6,
+      "GroupId": 4
+    }
+  ]
+}
